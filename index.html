@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free BoPaint v1.0</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="toolbar">
+      <input type="color" id="color-picker" value="#000000" title="Seleccionar color" />
+      <input type="range" id="brush-size" min="1" max="50" value="5" title="Tamaño del pincel" />
+      <button id="line-tool" title="Dibujar línea">Línea</button>
+      <button id="eraser-tool" title="Borrador">Borrador</button>
+      <button id="fill-tool" title="Rellenar área">Rellenar</button> <!-- Botón de relleno -->
+      <button id="pencil-tool" title="Lápiz">Lápiz</button> <!-- Botón del lápiz -->
+      <button id="clear-btn" title="Limpiar canvas">Limpiar</button>
+      <button id="save-btn" title="Guardar dibujo">Guardar</button>
+    </div>
+    <canvas id="drawing-canvas"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
